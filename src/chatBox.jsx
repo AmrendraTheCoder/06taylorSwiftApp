@@ -38,7 +38,7 @@ function ChatBox({ messages }) {
         <div className={`${styles.bubble} ${styles.userMessage}`}>
           <p className={styles.text}>Thank you, Taylor!</p>
         </div>
-        <img src="https://64.media.tumblr.com/..." alt="User Avatar" className={styles.image} />
+        <img src="https://64.media.tumblr.com/1f50c44d48f8e2d29b6bb914ed275ec8/bf16cb6f6c32464d-53/s96x96u_c1/ea27dc96345df45d16e4cbe9e38dee1eb0da74e6.pnj" alt="User Avatar" className={styles.image} />
       </div>
       <span className={styles.timestamp}>21:12</span>
     </div>
