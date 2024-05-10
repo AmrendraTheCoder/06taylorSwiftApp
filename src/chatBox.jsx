@@ -7,7 +7,7 @@ function ChatBox({ messages }) {
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjurbbBQxphWim0yt9Bs5GRJ1JqKRHXBKvJWe1Hon6w&s" alt="Taylor Swift" className="w-8 h-8 mr-2 rounded-full" />
     <div className="bubble bg-pink-200 rounded-bl-lg rounded-tr-lg py-2 px-4">
       <p className="text-gray-700 text-m">
-        Hey Netra,
+        Hi Netra,
         <br />
         Taylor here! I wanted to reach out because I heard things haven't been easy with your family and boyfriend.  Life throws curveballs sometimes, and right now it feels like you're catching all of them.
         <br />
