@@ -1,12 +1,13 @@
 import React from 'react';
+import styles from './ChatBox.module.css';
 
 function ChatBox({ messages }) {
   return (
-    <div className="chat-box bg-white shadow-md rounded-lg flex flex-col gap-4 p-4">
-  <div className="message flex items-">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjurbbBQxphWim0yt9Bs5GRJ1JqKRHXBKvJWe1Hon6w&s" alt="Taylor Swift" className="w-8 h-8 mr-2 rounded-full" />
-    <div className="bubble bg-pink-200 rounded-bl-lg rounded-tr-lg py-2 px-4">
-      <p className="text-gray-700 text-sm">
+    <div className={styles.chatBox}>
+      <div className={styles.message}>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjurbbBQxphWim0yt9Bs5GRJ1JqKRHXBKvJWe1Hon6w&s" alt="Taylor Swift" className={styles.image} />
+        <div className={styles.bubble}>
+          <p className={styles.text}>
         Hi Netra,
         <br />
         Taylor here! I wanted to reach out because I heard things haven't been easy with your family and boyfriend.  Life throws curveballs sometimes, and right now it feels like you're catching all of them.
@@ -33,14 +34,14 @@ function ChatBox({ messages }) {
       </p>
     </div>
   </div>
-  <div className="message flex flex-row-reverse items-center">  {/* Reverse for user message */}
-    <div className="bubble bg-gray-100 rounded-tr-lg rounded-bl-lg py-2 px-4">
-      <p className="text-gray-700 text-s">Thank you, Taylor!</p>
+  <div className={`${styles.message} ${styles.userMessage}`}> {/* Use multiple classes */}
+        <div className={`${styles.bubble} ${styles.userMessage}`}>
+          <p className={styles.text}>Thank you, Taylor!</p>
+        </div>
+        <img src="https://64.media.tumblr.com/..." alt="User Avatar" className={styles.image} />
+      </div>
+      <span className={styles.timestamp}>21:12</span>
     </div>
-    <img src="https://64.media.tumblr.com/1f50c44d48f8e2d29b6bb914ed275ec8/bf16cb6f6c32464d-53/s96x96u_c1/ea27dc96345df45d16e4cbe9e38dee1eb0da74e6.pnj" alt="User Avatar" className="w-8 h-8 ml-2 mr-2 rounded-full" />
-  </div>
-  <span className="text-xs text-gray-500 text-right">21:12</span> {/* Timestamp */}
-</div>
   );
 }
 
