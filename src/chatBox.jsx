@@ -6,7 +6,7 @@ function ChatBox({ messages }) {
   <div className="message flex items-">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjurbbBQxphWim0yt9Bs5GRJ1JqKRHXBKvJWe1Hon6w&s" alt="Taylor Swift" className="w-8 h-8 mr-2 rounded-full" />
     <div className="bubble bg-pink-200 rounded-bl-lg rounded-tr-lg py-2 px-4">
-      <p className="text-gray-700 text-m">
+      <p className="text-gray-700 text-sm">
         Hi Netra,
         <br />
         Taylor here! I wanted to reach out because I heard things haven't been easy with your family and boyfriend.  Life throws curveballs sometimes, and right now it feels like you're catching all of them.
@@ -35,7 +35,7 @@ function ChatBox({ messages }) {
   </div>
   <div className="message flex flex-row-reverse items-center">  {/* Reverse for user message */}
     <div className="bubble bg-gray-100 rounded-tr-lg rounded-bl-lg py-2 px-4">
-      <p className="text-gray-700">Thank you, Taylor!</p>
+      <p className="text-gray-700 text-s">Thank you, Taylor!</p>
     </div>
     <img src="https://64.media.tumblr.com/1f50c44d48f8e2d29b6bb914ed275ec8/bf16cb6f6c32464d-53/s96x96u_c1/ea27dc96345df45d16e4cbe9e38dee1eb0da74e6.pnj" alt="User Avatar" className="w-8 h-8 ml-2 mr-2 rounded-full" />
   </div>
