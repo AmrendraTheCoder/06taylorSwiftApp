@@ -16,7 +16,7 @@ function ChatBox({ messages }) {
         But here's the thing I know about you, Netra: you're strong. You're the one who blasts my songs on repeat, the one who sings along like you know every word by heart.  That same strength that connects you to my music is the same strength that will get you through this.
         <br />
         <br />
-        Remember, "Darling, I'm a nightmare dressed like a daydream" <a href='https://www.youtube.com/watch?v=e-ORhEE9VVg' className='text-blue-800'> - Listen here!</a>. You are capable of amazing things, even when things feel dark.  Lean on your friends, your passions, and remember the fire you have inside.
+        Remember, "Darling, I'm a nightmare dressed like a daydream" <a href='https://www.youtube.com/watch?v=i8_w_m6HLJ0' className='text-blue-800'> - Listen here!</a>. You are capable of amazing things, even when things feel dark.  Lean on your friends, your passions, and remember the fire you have inside.
         <br />
         <br />
         And hey, if you ever need a shoulder to cry on or a voice to scream along to, you know where to find me.  We'll blast some tunes and you can tell me all about it.
